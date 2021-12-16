@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformations_03.xsl"?>
+
+<entities>
+  <entity>
+    <name>PERSON</name>    
+    <fields>
+      <field>
+        <name>NAME</name>
+      </field>
+      <field>
+        <name>ADDRESS</name>
+      </field>
+      <field>
+        <name>DATE_OF_BIRTH</name>
+      </field>
+    </fields>
+  </entity>
+  
+  <entity>
+    <name>NAME</name>    
+    <fields>
+      <field>
+        <name>FORM_OF_ADDRESS</name>
+      </field>
+      <field>
+        <name>FIRST_NAME</name>
+      </field>
+      <field>
+        <name>LAST_NAME</name>
+      </field>
+    </fields>
+  </entity>
+  
+  <entity>
+    <name>FORMS_OF_ADDRESS</name>
+  </entity>
+  
+  <entity>
+    <name>FIRST_NAMES</name>
+  </entity>
+  
+  <entity>
+    <name>LAST_NAMES</name>
+  </entity>
+  
+  <entity>
+    <name>ADDRESS</name>
+    <fields>
+      <field>
+        <name>HOUSE_NUMBER</name>
+      </field>
+      <field>
+        <name>STREET_NAME</name>
+      </field>
+    </fields>
+  </entity>
+
+  <entity>
+    <name>STREET_NAMES</name>
+  </entity>
+</entities>

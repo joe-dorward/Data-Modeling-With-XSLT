@@ -1,0 +1,4 @@
+body { font-family: sans-serif; }
+h3 { font-size: 12pt; background: forestgreen; color: honeydew; margin: 0 0 5px 0; padding: 2px 4px; }
+table { background: forestgreen; font-size: 10pt; width: 100%; margin-bottom: 10px; border: 1px solid forestgreen; }
+tr, td { background: white; padding: 2px 4px; border: 1px solid white; }
