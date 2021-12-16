@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformations_02.xsl"?>
+
+<entities>
+  <entity>
+    <name>PERSON</name>
+  </entity>
+  <entity>
+    <name>NAME</name>
+  </entity>
+  <entity>
+    <name>FORMS_OF_ADDRESS</name>
+  </entity>
+  <entity>
+    <name>FIRST_NAMES</name>
+  </entity>
+  <entity>
+    <name>LAST_NAMES</name>
+  </entity>
+  <entity>
+    <name>ADDRESS</name>
+  </entity>
+  <entity>
+    <name>HOUSE_NUMBER</name>
+  </entity>
+  <entity>
+    <name>STREET_NAME</name>
+  </entity>
+</entities>
