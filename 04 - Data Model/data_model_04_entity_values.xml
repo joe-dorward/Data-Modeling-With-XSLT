@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformations_04_entity_values.xsl"?>
+
+<entities>
+  <entity>
+    <name>PERSON</name>
+    <description>
+      <![CDATA[
+        <p class="description">The name, address, and date-of-birth information about a person.</p>
+      ]]>
+    </description>
+
+    <fields>
+      <field>
+        <name>NAME</name>
+      </field>
+      <field>
+        <name>ADDRESS</name>
+      </field>
+      <field>
+        <name>DATE_OF_BIRTH</name>
+      </field>
+    </fields>
+  </entity>
+
+  <entity>
+    <name>NAME</name>
+    <description>
+      <![CDATA[
+        <p class="description">The name (form of address, first-name, last-name) of a person.</p>
+      ]]>
+    </description>
+
+    <fields>
+      <field>
+        <name>FORM_OF_ADDRESS</name>
+      </field>
+      <field>
+        <name>FIRST_NAME</name>
+      </field>
+      <field>
+        <name>LAST_NAME</name>
+      </field>
+    </fields>
+  </entity>
+
+  <entity>
+    <name>FORMS_OF_ADDRESS</name>
+    <description>
+      <![CDATA[
+        <p class="description">The name form of address of a person.</p>
+      ]]>
+    </description>
+  </entity>
+
+  <entity>
+    <name>FIRST_NAMES</name>
+    <description>
+      <![CDATA[
+        <p class="description">The first-name of a person.</p>
+      ]]>
+    </description>
+  </entity>
+
+  <entity>
+    <name>LAST_NAMES</name>
+    <description>
+      <![CDATA[
+        <p class="description">The last-name of a person.</p>
+      ]]>
+    </description>
+  </entity>
+
+  <entity>
+    <name>ADDRESS</name>
+    <description>
+      <![CDATA[
+        <p class="description">The address (house number, street name) of a person.</p>
+      ]]>
+    </description>
+
+    <fields>
+      <field>
+        <name>HOUSE_NUMBER</name>
+      </field>
+      <field>
+        <name>STREET_NAME</name>
+      </field>
+    </fields>
+  </entity>
+
+  <entity>
+    <name>STREET_NAMES</name>
+    <description>
+      <![CDATA[
+        <p class="description">The street name of a house.</p>
+      ]]>
+    </description>
+  </entity>
+
+  <entity>
+    <name>DATE_OF_BIRTH</name>
+    <description>
+      <![CDATA[
+        <p class="description">The date of birth of a person.</p>
+      ]]>
+    </description>
+
+    <fields>
+      <field>
+        <name>DAY_OF_BIRTH</name>
+      </field>
+      <field>
+        <name>MONTH_OF_BIRTH</name>
+      </field>
+      <field>
+        <name>YEAR_OF_BIRTH</name>
+      </field>
+    </fields>
+  </entity>
+</entities>
+<!-- 
+  
+<entity>
+    <name>Org~Billing~Org</name>
+    <long>Organisation Billing Organisation</long>
+    <uid></uid>
+    <description>
+      <![CDATA[
+      <p><strong>Organisation Billing Organisation</strong> is the counter for billling Transaction for an Organisation </p>
+    ]]>
+    </description>
+    <entity-relationship-diagram></entity-relationship-diagram>
+
+
+    <FIELDS>
+    <field out="true" entity-name="Org">
+      <name>AchillesId</name>
+      <long>Achilles Identifier</long>
+      <type>string</type>
+      <description>
+        <![CDATA[
+        <p>... </p>
+      ]]>
+      </description>
+    </field>
+    
+    <field generic="true">
+      <name>OId</name>
+      <long>Organisation Identifier</long>
+      <type>string</type>
+      <description>
+        <![CDATA[
+        <p>the identifier of the Organisation </p>
+      ]]>
+      </description>
+    </field>
+    
+    <field>
+      <name>TransCnt</name>
+      <long>Transaction Count</long>
+      <type>string</type>
+      <description>
+        <![CDATA[
+        <p>... </p>
+      ]]>
+      </description>
+    </field>
+  </entity>
+-->
